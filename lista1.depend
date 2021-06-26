@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1624661633 source:/home/lemyson/Documentos/lista1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
