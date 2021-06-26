@@ -11,7 +11,7 @@
         int i=3,j=5;
         int *p, *q;
         p = &i;
-        q = &j;*/
+        q = &j;
 //Determine o valor das seguintes expressões:
 
     p == &i;
@@ -30,7 +30,7 @@
 
 
 
-//QUESTÃO 2(feita)
+//QUESTÃO 2
 //Mostre o que será impresso por programa supondo que i ocupa o endereço 4094 na memória.
 int i=5, *p;
 p = &i;
@@ -39,7 +39,7 @@ printf("%x %d %d %d %d", p,*p+2,**&p,3**p,**&p+4);
 
 Sera impresso "f93bac64 7 5 15 9"
 
-//QUESTÃO 3(feito)
+//QUESTÃO 3
 //Se  i  e  j  são  variáveis  inteiras  e  p  e  q  ponteiros  para  int,  quais  das  seguintes  expressões  de atribuição são ilegais?
 int *p, *q, i,j;
 p = i;
@@ -51,7 +51,7 @@ i = *&*&j;
 q = *p;
 i = (*p)++ + *q
 
-//QUESTÃO 4(feito)
+//QUESTÃO 4
 //Determine  o  que  será  mostrado  pelo  seguinte  programa  (compile-o,  execute-o  e  verifique  se foram obtidas as respostas esperadas).
 
 int    valor, *p1, idade, vetor[3], *p4, *p5;
@@ -137,7 +137,7 @@ return(0);
 
 //n) resposta = 27
 
-//QUESTÃO 5(feito)
+//QUESTÃO 5
 //Determine  o  que  será  mostrado  pelo  seguinte  programa  (compile-o,  execute-o  e  verifique  seforam obtidas as respostas esperadas).
 
     float v[5] = {1.1,2.2,3.3,4.4,5.5};
@@ -164,7 +164,7 @@ i = 3vet[3] = 4.4*(x + 3) = 4.4&v[3] = 3585336c(x+3) = 3585336c
 i = 4vet[4] = 5.5*(x + 4) = 5.5&v[4] = 35853370(x+4) = 35853370
 
 
-//QUESTÃO 6 (feito)
+//QUESTÃO 6 
 //Assumindo  que  pulo[]  é  um  vetor  do  tipo  int,  quais  das  seguintes  expressões  referenciam  o valor do terceiro elemento do vetor?
 
         int pulo[];
@@ -176,7 +176,7 @@ i = 4vet[4] = 5.5*(x + 4) = 5.5&v[4] = 35853370(x+4) = 35853370
 // resposta = *(pulo + 2)
 
 
-//QUESTÃO 7 (feito)
+//QUESTÃO 7 
 //Considerando  a  declaração  int  mat[4],  *p,  x;,  quais  das  seguintes  expressões  são  válidas?Justifique.
 
     int mat[4], *p,x;
